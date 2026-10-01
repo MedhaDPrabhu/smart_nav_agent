@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "Main Gate": {"x": 100, "y": 500},
+    "Library": {"x": 250, "y": 400},
+    "A-Block": {"x": 400, "y": 300},
+    "N-Block": {"x": 550, "y": 200},
+    "Canteen": {"x": 350, "y": 500},
+    "S-Block": {"x": 600, "y": 450}
+  },
+  "edges": [
+    {"from": "Main Gate", "to": "Library", "weight": 150},
+    {"from": "Main Gate", "to": "Canteen", "weight": 200},
+    {"from": "Canteen", "to": "A-Block", "weight": 100},
+    {"from": "Library", "to": "Canteen", "weight": 180},
+    {"from": "A-Block", "to": "N-Block", "weight": 120},
+    {"from": "A-Block", "to": "S-Block", "weight": 110}
+  ]
+}
+
